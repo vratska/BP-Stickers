@@ -5,9 +5,9 @@ android {
     aaptOptions {
         noCompress "webp"
     }
-    compileSdkVersion 30
+    compileSdk 29
     defaultConfig {
-        applicationId "com.example.samplestickerapp"
+        applicationId 'com.vratska.bpsticker'
         minSdkVersion 15
         targetSdkVersion 30
         versionCode 1
@@ -43,6 +43,11 @@ android {
         exclude 'lib/*/libnative-imagetranscoder.so'
         exclude 'lib/*/libnative-filters.so'
     }
+    dependenciesInfo {
+        includeInApk true
+        includeInBundle true
+    }
+    buildToolsVersion '30.0.2'
 
     // Configures multiple APKs based on ABI.
     // see https://developer.android.com/studio/build/configure-apk-splits#configure-abi-split
