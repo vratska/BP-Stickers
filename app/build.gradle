@@ -5,7 +5,7 @@ android {
     aaptOptions {
         noCompress "webp"
     }
-    compileSdk 29
+    compileSdk 30
     defaultConfig {
         applicationId 'com.vratska.bpsticker'
         minSdkVersion 15
