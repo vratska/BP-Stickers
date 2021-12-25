@@ -4,7 +4,7 @@
     package="com.vratska.blackpinkstickers">
 
     <application
-        android:name="com.vratska.blackpinkstickers.BlackpinkStickerApp"
+        android:name="com.vratska.blackpinkstickers.blackpinkstickerapp"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"

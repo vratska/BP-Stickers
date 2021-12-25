@@ -12,7 +12,7 @@ import android.app.Application;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 
-public class BlackpinkStickerApp extends Application {
+public class blackpinkstickerapp extends Application {
 
     @Override
     public void onCreate() {
