@@ -53,4 +53,4 @@ Após concluir o download, basta extrair o aplicativo de dentro com um gerenciad
 ### Supporte e Contacto
 
 Quer me mandar um oi?  
-Mande um email para o meu [Outlook](vratska@outlook.com) ou me contacte no [Telegram](t.me/vratska)!
+Mande um email para o meu [Outlook](mailto:vratska@outlook.com) ou me contacte no [Telegram](http://t.me/vratska)!
