@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:webpsupport:2.6.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd8a34b00dacac78dc6098645aeebd06/jetified-webpsupport-2.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c0be8394032c361d772557d8c09a6652/transformed/jetified-webpsupport-2.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c0be8394032c361d772557d8c09a6652/transformed/jetified-webpsupport-2.5.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c0be8394032c361d772557d8c09a6652/transformed/jetified-webpsupport-2.5.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/webpsupport/2.6.0/52ca355e211236ade8f6a19230f1d103e2f38805/webpsupport-2.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/webpsupport/2.6.0/f1763c1c82aafca194456f79b9a2b29dd4c209cd/webpsupport-2.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

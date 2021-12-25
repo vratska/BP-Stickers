@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.75" />
         <entry key="app/src/main/res/layout/activity_sticker_pack_info.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_sticker_pack_list.xml" value="0.33" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.209" />
       </map>
     </option>
   </component>

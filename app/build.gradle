@@ -2,17 +2,14 @@ apply plugin: 'com.android.application'
 
 android {
     //the compression of webp file during build causes problem with FileDescriptor in ContentProvider.
-    lintOptions {
-        abortOnError false
-    }
     aaptOptions {
         noCompress "webp"
     }
-    compileSdk 30
+    compileSdkVersion 31
     defaultConfig {
-        applicationId 'com.vratska.bpsticker'
+        applicationId "com.elias.bpstickers"
         minSdkVersion 15
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -46,11 +43,7 @@ android {
         exclude 'lib/*/libnative-imagetranscoder.so'
         exclude 'lib/*/libnative-filters.so'
     }
-    dependenciesInfo {
-        includeInApk true
-        includeInBundle true
-    }
-    buildToolsVersion '30.0.2'
+    buildToolsVersion '32.0.0'
 
     // Configures multiple APKs based on ABI.
     // see https://developer.android.com/studio/build/configure-apk-splits#configure-abi-split
@@ -108,16 +101,16 @@ tasks.whenTaskAdded { task ->
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test:runner:1.4.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
     def fresco_version = '2.5.0'
-    implementation "com.facebook.fresco:fresco:$fresco_version"
-    implementation "com.facebook.fresco:webpsupport:$fresco_version"
-    implementation "com.facebook.fresco:animated-webp:$fresco_version"
-    implementation "com.facebook.fresco:animated-base:$fresco_version"
+    implementation "com.facebook.fresco:fresco:2.6.0"
+    implementation "com.facebook.fresco:webpsupport:2.6.0"
+    implementation "com.facebook.fresco:animated-webp:2.6.0"
+    implementation "com.facebook.fresco:animated-base:2.6.0"
 }
