@@ -2,6 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     //the compression of webp file during build causes problem with FileDescriptor in ContentProvider.
+    lintOptions {
+        abortOnError false
+    }
     aaptOptions {
         noCompress "webp"
     }
