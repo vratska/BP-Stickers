@@ -6,13 +6,13 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.example.samplestickerapp;
+package com.vratska.blackpinkstickers;
 
 import android.app.Application;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 
-public class StickerApplication extends Application {
+public class BlackpinkStickerApp extends Application {
 
     @Override
     public void onCreate() {

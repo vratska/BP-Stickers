@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.samplestickerapp">
+    package="com.vratska.blackpinkstickers">
 
     <application
-        android:name=".StickerApplication"
+        android:name="com.vratska.blackpinkstickers.BlackpinkStickerApp"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".EntryActivity">
+        <activity android:name="com.vratska.blackpinkstickers.EntryActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StickerPackListActivity" />
+        <activity android:name="com.vratska.blackpinkstickers.StickerPackListActivity" />
         <activity
-            android:name=".StickerPackDetailsActivity"
-            android:parentActivityName=".StickerPackListActivity"
+            android:name="com.vratska.blackpinkstickers.StickerPackDetailsActivity"
+            android:parentActivityName="com.vratska.blackpinkstickers.StickerPackListActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.samplestickerapp.StickerPackListActivity" />
+                android:value="com.vratska.blackpinkstickers.StickerPackListActivity" />
         </activity>
         <activity
-            android:name=".StickerPackInfoActivity"
+            android:name="com.vratska.blackpinkstickers.StickerPackInfoActivity"
             android:label="@string/title_activity_sticker_pack_info"
-            android:parentActivityName=".StickerPackDetailsActivity"
+            android:parentActivityName="com.vratska.blackpinkstickers.StickerPackDetailsActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.samplestickerapp.StickerPackDetailsActivity" />
+                android:value="com.vratska.blackpinkstickers.StickerPackDetailsActivity" />
         </activity>
 
         <provider
-            android:name=".StickerContentProvider"
+            android:name="com.vratska.blackpinkstickers.StickerContentProvider"
             android:authorities="${contentProviderAuthority}"
             android:enabled="true"
             android:exported="true"
