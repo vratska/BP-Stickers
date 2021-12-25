@@ -1,11 +1,11 @@
 name: Minimal Android CI Workflow
 
 on:
-    workflow_dispatchc:
-   		branches:
-      	- master
-    	tags:
-      	- 'v*'
+    push:
+        branches:
+        - master
+        tags:
+        - 'v*'
 
 jobs:
   test:
